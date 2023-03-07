@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import FlexComponentOne from "./components/FlexComponentOne";
+import FlexComponentTwo from "./components/FlexComponentTwo";
+import FlexComponentThree from "./components/FlexComponentThree";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div style={{ padding: 50 }}>
+        <FlexComponentOne />
+      </div>
+      <div style={{ padding: 50 }}>
+        <FlexComponentTwo />
+      </div>
+      <div style={{ padding: 50 }}>
+        <FlexComponentThree />
+      </div>
+    </>
   );
 }
 
