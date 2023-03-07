@@ -6,13 +6,13 @@ import FlexComponentThree from "./components/FlexComponentThree";
 function App() {
   return (
     <>
-      <div style={{ padding: 50 }}>
+      <div style={{ padding: 40 }}>
         <FlexComponentOne />
       </div>
-      <div style={{ padding: 50 }}>
+      <div style={{ padding: 40 }}>
         <FlexComponentTwo />
       </div>
-      <div style={{ padding: 50 }}>
+      <div style={{ padding: 40 }}>
         <FlexComponentThree />
       </div>
     </>
